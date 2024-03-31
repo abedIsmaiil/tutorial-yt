@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    scroll-behavior: smooth;
+}
+.icon{
+    margin-top: 26px;
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+}
+body{
+    background-color: #dfe2e9;
+}
+#Header{
+    width: 100%;
+    position: fixed; /*when scroll reste fixed*/
+    z-index: 9999; /*dymn ykun huwe lmghata mtel chafefiye yeene*/
+    background-color: rgb(192, 130, 154);
+    border-radius: 10px;
+}
+#DownHeader{
+    width: 75%;
+    display: flex;
+    margin: 0% 9%;
+    justify-content: space-between;
+    padding: 10px 30px;/*topbottom reightleft*/
+}
+.choiceToView{
+    text-decoration: none;
+    color: rgb(12, 9, 8);
+    font-size: 1.1em;
+}
+#DownHeader a:hover{
+    color: #dfe2e9;
+    background-color: rgba(141, 121, 126, 0.247);
+    border-radius: 10px;
+}
+#TopHeader{
+    align-items: center;
+    display: flex;
+}
+#Icons{
+    margin-left: 100px;
+}
+#shein{
+    margin: 30px 170px 5px 100px;
+}
+#search{
+    margin: 30px 0px 6px 30px;
+    width: 31%;
+    height: 37px;   
+    border-radius: 5px;
+}
+.searchIcon{
+    margin-top: 22px;
+    width: 37px;
+    height: 38px; 
+    cursor: pointer;
+}
+#ads{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.im85{
+    margin-top: 140px;
+    border-radius: 10px;
+}
+#imgChoice{
+    display: flex;
+    justify-content: space-around;
+}
+.imag{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}
+.imgcap{
+    font-size: 1.18em;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#displayProducts{
+    margin: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.productCard{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.clothesImages{
+    width: 235px;
+    height: 280px;
+    border-radius: 10px;
+}
+.spanProduct{
+    display: flex;
+    justify-content: space-around;
+}
+.nameProduct{
+    display: flex;
+    justify-content: center;
+}
+.favProduct{
+    width: 14px;
+    min-height: 14px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+#endSection{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50PX;
+}
+#Info{
+    display: flex;
+}
+.compInfo{
+    margin-right: 30px;
+}
+.links{
+    text-decoration: none;
+    color: rgb(4, 62, 128);
+}
+.compInfo a:hover{
+    color: rgb(216, 13, 199);
+}
+#findUs{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px; 
+}
+#links{
+    display: flex;
+    justify-content: space-between;
+}
